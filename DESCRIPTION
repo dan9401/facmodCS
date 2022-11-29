@@ -35,8 +35,13 @@ Imports:
 	knitr,
 	PCRA
 Suggests:
-    rugarch
-VignetteBuilder: knitr
+    R.rsp
+    corrplot,
+    lmtest,
+    rugarch,
+    strucchange,
+    HH
+VignetteBuilder: R.rsp
 URL: https://github.com/braverock/FactorAnalytics
 RoxygenNote: 7.2.1
 Encoding: UTF-8
